@@ -1,6 +1,6 @@
 // Define an array of possible card suits and card values
-const suits = ["Hearts", "Spades", "Clubs", "Diamonds"];
-const cardValues = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "King", "Queen", "Jack", "Ace"];
+const suits = ["♥", "♠", "♣", "♦"];
+const cardValues = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "K", "Q", "J", "A"];
 
 function generateRandomCard() {
   // Get a random suit and card value
